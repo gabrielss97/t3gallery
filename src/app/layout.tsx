@@ -25,7 +25,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${GeistSans.variable} flex flex-col gap-4`}>
+    <html
+      lang="en"
+      suppressHydrationWarning={true}
+      className={`${GeistSans.variable} flex flex-col gap-4`}
+    >
       <body>
         <TopNav />
         {children}
