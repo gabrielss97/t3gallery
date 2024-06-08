@@ -2,7 +2,7 @@
 
 ## ToDo
 
-- [ ] Make it deploy (vercel)
+- [x] Make it deploy (vercel)
 - [ ] Scaffold basic ui with mock data
 - [ ] Actually set up a database (vercel postgres)
 - [ ] Attach database to UI
@@ -13,3 +13,7 @@
 - [ ] Delete button (w/ Server Actions)
 - [ ] Analytics (posthog)
 - [ ] Ratelimiting (upstash)
+
+## Observações para o projeto algoritimos
+
+- Incluir nested routes, seria bom fazer uns 2 ou 3 layers já que alguns elementos da pagina permanecem o mesmo
